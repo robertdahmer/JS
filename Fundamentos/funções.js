@@ -8,3 +8,10 @@ function printSoma(a=0, b=0) {
 }
 
 console.log(printSoma(8))
+
+
+const maiusculo = (a) => a.toUpperCase()
+console.log(maiusculo('Vatomanocu'))
+
+const printar = texto => console.log(texto)
+printar('Olá, Mundo')
