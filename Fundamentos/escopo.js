@@ -9,3 +9,7 @@ olamundo()
 console.log(texto)
 
 
+console.log(typeof(a))
+
+var a = 45
+console.log(typeof(a))
