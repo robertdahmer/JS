@@ -1,4 +1,4 @@
-const pessoa = {
+let pessoa = {
     nome: 'Robert',
     idade: 16,
     endereço: {
@@ -7,7 +7,10 @@ const pessoa = {
     }
 }
 
-const {idade, nome} = pessoa
-const {logradouro, numero} = pessoa.endereço
+let {idade, nome} = pessoa
+let {logradouro, numero} = pessoa.endereço
+let {sobrenome = 'Dahmer', tamanhoDoPau = '17cm'} = pessoa
 console.log(idade, nome, logradouro, numero)
-console.log(`Oi meu nome é ${nome}! Tenho ${idade} anos e moro na ${logradouro}, que tem o número ${numero}`)
+console.log(`Oi meu nome é ${nome} ${sobrenome}! Tenho ${idade} anos e ${tamanhoDoPau} de pau. Moro na ${logradouro}, que tem o número ${numero}`)
+
+console.log(pessoa)
