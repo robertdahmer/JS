@@ -7,5 +7,7 @@ const pessoa = {
     }
 }
 
-const {idade, nome, endereço} = pessoa
-console.log(typeof(idade))
+const {idade, nome} = pessoa
+const {logradouro, numero} = pessoa.endereço
+console.log(idade, nome, logradouro, numero)
+console.log(`Oi meu nome é ${nome}! Tenho ${idade} anos e moro na ${logradouro}, que tem o número ${numero}`)
