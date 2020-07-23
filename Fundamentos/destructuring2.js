@@ -12,4 +12,4 @@ function getRandom ({min=0, max=0}) {
     const valor = Math.random() * (max - min) + min
     return Math.floor(valor)
 }
-console.log(getRandom({min: 0, max: 15}))
+console.log(getRandom({min: 15, max: 0}))
