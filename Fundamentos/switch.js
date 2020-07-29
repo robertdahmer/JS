@@ -1,11 +1,13 @@
 function qualfoiPorra(nota) {
-        switch (nota) {
-            case 10:
-            case 9:
-                console.log('Você tirou 10, seu merdinha!')
-                
-        }
+    nota = Math.floor(nota)
+    switch (nota) {
+        case 10:
+        case 9:
+            console.log(nota, `Você tirou ${nota}!`)
+            break
+        default:
+            console.log('Oq q tu digitou porra?')
+    }
 }
 
-
-qualfoiPorra(10)
+qualfoiPorra(123)
