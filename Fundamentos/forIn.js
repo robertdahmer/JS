@@ -4,7 +4,7 @@ const pessoa = {
     peso: 57
 }
 
-for (indice in pessoa) {
+for (let indice in pessoa) {
     console.log(`${indice} == ${pessoa[indice]}`)
 }
 
