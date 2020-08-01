@@ -7,3 +7,5 @@ const pessoa = {
 for (indice in pessoa) {
     console.log(`${indice} == ${pessoa[indice]}`)
 }
+
+console.log(typeof(pessoa))
